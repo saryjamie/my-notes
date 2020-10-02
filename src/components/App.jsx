@@ -3,7 +3,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
-import { createNotEmittedStatement } from "typescript";
 
 function App() {
   const [notes, setNotes] = useState([]);
@@ -37,7 +36,6 @@ function App() {
           />
         );
       })}
-
       <Footer />
     </div>
   );
